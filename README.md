@@ -7,3 +7,5 @@
 https://asciinema.org/a/QiIIwJnul37nVbRnosRIrvPxt
 ### Launch brain-even game:
 https://asciinema.org/a/ek4fq6tDziRXCgYFQHA7VFE4P
+### Launch brain-calc game:
+https://asciinema.org/a/OByKRzUyuDOpXP7uojGyfag5h
