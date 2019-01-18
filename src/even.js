@@ -1,4 +1,4 @@
-import readlineSync from 'readline-sync';
+/* import readlineSync from 'readline-sync';
 
 const getNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const isEven = value => value % 2 === 0;
@@ -22,11 +22,11 @@ const startGame = () => {
     if (answer === rightAnswer) {
       console.log('Correct!');
     } else {
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'
-Let's try again, ${userName}!`);
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'`);
+      console.log(`Let's try again, ${userName}!`);
       return;
     }
   }
   console.log(`Congratulations, ${userName}!`);
 };
-export default startGame;
+export default startGame; */
