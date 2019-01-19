@@ -1,18 +1,15 @@
 import { cons } from 'hexlet-pairs';
 import runGame from '..';
+import getNumber from '../utils';
 
 const description = 'Find the greatest common divisor of given numbers.';
-const getNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const minValue = 1;
 const maxValue = 100;
 
 const getDivisor = (value1, value2) => {
-  let a = value1;
-  let b = value2;
-  if (b > a) {
-    [a, b] = [b, a];
-  }
+  const a = Math.max(value1, value2);
+  const b = Math.min(value1, value2);
   if (a % b === 0) {
     return b;
   }

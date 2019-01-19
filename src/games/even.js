@@ -1,16 +1,16 @@
 import { cons } from 'hexlet-pairs';
 import runGame from '..';
+import getNumber from '../utils';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
-const getNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const isEven = value => value % 2 === 0;
 const minValue = 1;
 const maxValue = 100;
 
 const gameData = () => {
-  const number = getNumber(minValue, maxValue);
-  const rightAnswer = isEven(number) ? 'yes' : 'no';
-  return cons(number, rightAnswer);
+  const question = getNumber(minValue, maxValue);
+  const rightAnswer = isEven(question) ? 'yes' : 'no';
+  return cons(question, rightAnswer);
 };
 
 export default () => runGame(description, gameData);
