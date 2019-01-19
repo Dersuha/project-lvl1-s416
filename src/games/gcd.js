@@ -20,9 +20,9 @@ const gameData = () => {
   const num1 = getNumber(minValue, maxValue);
   const num2 = getNumber(minValue, maxValue);
 
-  const equation = `${num1} ${num2}`;
+  const question = `${num1} ${num2}`;
   const rightAnswer = `${getDivisor(num1, num2)}`;
-  return cons(equation, rightAnswer);
+  return cons(question, rightAnswer);
 };
 
 export default () => runGame(description, gameData);

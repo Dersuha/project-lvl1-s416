@@ -17,3 +17,6 @@ calc:
 
 gcd:
 	npx babel-node -- src/bin/brain-gcd.js
+
+progr:
+	npx babel-node -- src/bin/brain-progression.js

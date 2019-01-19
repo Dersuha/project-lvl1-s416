@@ -28,9 +28,9 @@ const gameData = () => {
       func = (a, b) => a * b;
       oper = '*';
   }
-  const equation = `${num1} ${oper} ${num2}`;
+  const question = `${num1} ${oper} ${num2}`;
   const rightAnswer = `${func(num1, num2)}`;
-  return cons(equation, rightAnswer);
+  return cons(question, rightAnswer);
 };
 
 export default () => runGame(description, gameData);
