@@ -9,3 +9,5 @@ https://asciinema.org/a/QiIIwJnul37nVbRnosRIrvPxt
 https://asciinema.org/a/ek4fq6tDziRXCgYFQHA7VFE4P
 ### Launch brain-calc game:
 https://asciinema.org/a/OByKRzUyuDOpXP7uojGyfag5h
+### Launch brain-gcd game:
+https://asciinema.org/a/CQoYDD4inzdGI9VnxZBKWW1jH
