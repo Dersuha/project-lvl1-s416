@@ -11,21 +11,21 @@ const maxStep = 5;
 const progressionLength = 10;
 
 const gameData = () => {
-  const position = getNumber(1, progressionLength);
+  const position = getNumber(0, progressionLength - 1);
   const step = getNumber(minStep, maxStep);
+  const firstElement = getNumber(minValue, maxValue);
+
+  const rightAnswer = `${firstElement + step * position}`;
+
   let question = '';
-  let rightAnswer = '';
-  let member = getNumber(minValue, maxValue);
-  for (let i = 1; i <= progressionLength; i += 1) {
+  for (let i = 0; i < progressionLength; i += 1) {
     if (i === position) {
-      rightAnswer = `${member}`;
       question += '.. ';
     } else {
-      question += `${member} `;
+      question += `${firstElement + step * i} `;
     }
-    member += step;
   }
-  return cons(question, rightAnswer);
+  return cons(question.trim(), rightAnswer);
 };
 
 export default () => runGame(description, gameData);

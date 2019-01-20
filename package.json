@@ -1,6 +1,6 @@
 {
   "name": "dersu-games",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "brain-games project",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
